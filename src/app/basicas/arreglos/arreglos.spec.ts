@@ -1,7 +1,7 @@
 import { obtenerRobots } from "./arreglos";
-
-describe('Pruebas de arreglos',()=>{
-   
+//para ignorar todo se puede antes del describe
+xdescribe('Pruebas de arreglos',()=>{
+   ///Para omitir una prueba pongo al x antes del it
     it('Debe retornar al menos 3 robots', ()=>{
 
         const res = obtenerRobots();
